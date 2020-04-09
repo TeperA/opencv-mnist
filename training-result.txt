@@ -1,0 +1,56 @@
+/Users/teyvelina/PycharmProjects/opencv-mnist/venvcv/bin/python /Users/teyvelina/PycharmProjects/opencv-mnist/Task9TrainingMNIST.py
+Using TensorFlow backend.
+WARNING:tensorflow:From /Users/teyvelina/PycharmProjects/opencv-mnist/venvcv/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+2020-04-09 20:05:45.150892: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-09 20:05:45.257960: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7fd4d5463880 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-04-09 20:05:45.257977: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /Users/teyvelina/PycharmProjects/opencv-mnist/venvcv/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /Users/teyvelina/PycharmProjects/opencv-mnist/venvcv/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+Train on 60000 samples, validate on 10000 samples
+Epoch 1/20
+ - 37s - loss: 0.2289 - accuracy: 0.9333 - val_loss: 0.0735 - val_accuracy: 0.9771
+Epoch 2/20
+ - 38s - loss: 0.0665 - accuracy: 0.9801 - val_loss: 0.0423 - val_accuracy: 0.9857
+Epoch 3/20
+ - 39s - loss: 0.0466 - accuracy: 0.9857 - val_loss: 0.0410 - val_accuracy: 0.9868
+Epoch 4/20
+ - 37s - loss: 0.0359 - accuracy: 0.9891 - val_loss: 0.0352 - val_accuracy: 0.9891
+Epoch 5/20
+ - 39s - loss: 0.0296 - accuracy: 0.9904 - val_loss: 0.0378 - val_accuracy: 0.9873
+Epoch 6/20
+ - 39s - loss: 0.0237 - accuracy: 0.9924 - val_loss: 0.0331 - val_accuracy: 0.9893
+Epoch 7/20
+ - 39s - loss: 0.0189 - accuracy: 0.9939 - val_loss: 0.0317 - val_accuracy: 0.9900
+Epoch 8/20
+ - 37s - loss: 0.0159 - accuracy: 0.9950 - val_loss: 0.0316 - val_accuracy: 0.9891
+Epoch 9/20
+ - 37s - loss: 0.0135 - accuracy: 0.9956 - val_loss: 0.0345 - val_accuracy: 0.9896
+Epoch 10/20
+ - 38s - loss: 0.0110 - accuracy: 0.9965 - val_loss: 0.0285 - val_accuracy: 0.9910
+Epoch 11/20
+ - 38s - loss: 0.0104 - accuracy: 0.9968 - val_loss: 0.0355 - val_accuracy: 0.9883
+Epoch 12/20
+ - 39s - loss: 0.0085 - accuracy: 0.9974 - val_loss: 0.0336 - val_accuracy: 0.9905
+Epoch 13/20
+ - 38s - loss: 0.0087 - accuracy: 0.9970 - val_loss: 0.0392 - val_accuracy: 0.9894
+Epoch 14/20
+ - 38s - loss: 0.0073 - accuracy: 0.9976 - val_loss: 0.0377 - val_accuracy: 0.9904
+Epoch 15/20
+ - 39s - loss: 0.0055 - accuracy: 0.9983 - val_loss: 0.0378 - val_accuracy: 0.9893
+Epoch 16/20
+ - 38s - loss: 0.0049 - accuracy: 0.9984 - val_loss: 0.0351 - val_accuracy: 0.9900
+Epoch 17/20
+ - 38s - loss: 0.0056 - accuracy: 0.9980 - val_loss: 0.0312 - val_accuracy: 0.9909
+Epoch 18/20
+ - 41s - loss: 0.0044 - accuracy: 0.9985 - val_loss: 0.0400 - val_accuracy: 0.9887
+Epoch 19/20
+ - 39s - loss: 0.0058 - accuracy: 0.9980 - val_loss: 0.0386 - val_accuracy: 0.9899
+Epoch 20/20
+ - 39s - loss: 0.0048 - accuracy: 0.9982 - val_loss: 0.0431 - val_accuracy: 0.9899
+Accuracy: 98.99%
+
+Process finished with exit code 0

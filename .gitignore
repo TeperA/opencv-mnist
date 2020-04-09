@@ -1,0 +1,8 @@
+.gitignore
+
+.idea
+
+MNIST
+
+venv
+venvcv
